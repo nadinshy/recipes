@@ -46,6 +46,9 @@ const finalSearch = (e) => {
       <form onSubmit={finalSearch}> 
         <input className='search' placeholder='Search...' onChange={myRecipeSearch} value={mySearch}>
         </input>
+      <button>
+        <img src="https://img.icons8.com/fluency/48/000000/fry.png" className='icons' alt='icon'/>
+      </button>
       </form>
       </div>
       
