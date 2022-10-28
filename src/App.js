@@ -52,13 +52,7 @@ const finalSearch = (e) => {
       </form>
       </div>
       
-    <div className='container'>
-      <button>
-        <img src="https://img.icons8.com/fluency/48/000000/fry.png" className='icons' alt='icon'/>
-      </button>
-    </div>
-
-   <div>
+  
     {myRecipes.map((element, index) => (
       <MyRecipesComponent key={index}
       label={element.recipe.label}
