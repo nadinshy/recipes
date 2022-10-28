@@ -11,8 +11,8 @@ function MyRecipesComponent({label, image, calories, ingredients}) {
         </div>
         
     <ul className='list'>
-        {ingredients.map((ingredient, id) => (
-            <li key={id}><img src={checkmark} alt='checkmark' 
+        {ingredients.map((ingredient, index) => (
+            <li key={index}><img src={checkmark} alt='checkmark' 
             className='icon'/>{ingredient}</li>
         ))}
     </ul>
