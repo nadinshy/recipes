@@ -52,7 +52,7 @@ const finalSearch = (e) => {
       </form>
       </div>
       
-  
+  <div>
     {myRecipes.map((element, index) => (
       <MyRecipesComponent key={index}
       label={element.recipe.label}
